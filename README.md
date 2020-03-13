@@ -1,6 +1,6 @@
 # Personalized Kanaban Board Project
 
->> The application functionality:
+## The application functionality:
 
 1) The application allows new users to register.  
 
@@ -26,9 +26,9 @@
 
 12) Intuitive user Interface.  
 
-##########################################################################################################################################################
+########################################################################
 
->> To Set Up the Virtual Environment and Install all the Requirements:
+## To Set Up the Virtual Environment and Install all the Requirements:
 
 1) Open a command-line interpreter within the project directory
 
@@ -42,9 +42,9 @@
 
 6) You are good to go!!
 
-##########################################################################################################################################################
+########################################################################
 
->>To Run the App:
+## To Run the App:
 
 1) Open a command-line interpreter within the project directory
 
@@ -56,9 +56,9 @@
 
 5) Open your favorite browser Then go to the following URL: "http://127.0.0.1:5000/"
 
-##########################################################################################################################################################
+########################################################################
 
->> To Run the Unit Tests:
+## To Run the Unit Tests:
 
 1) Open a command-line interpreter within the project tests directory
 
