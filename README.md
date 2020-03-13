@@ -1,4 +1,4 @@
-								>> Personalized Kanaban Board Project <<
+# Personalized Kanaban Board Project
 
 >> The application functionality:
 
