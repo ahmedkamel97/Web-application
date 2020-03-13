@@ -13,7 +13,7 @@ TEST_DB = 'test.db'
 """
 Primary class containing all the tests 
 """
-class BasicTests(unittest.TestCase):
+class Basic(unittest.TestCase):
     '''
     These instructions are executed prior to each test
     '''    
@@ -53,7 +53,7 @@ class BasicTests(unittest.TestCase):
     '''
     This functions tests that users with the proper credentials can login and view their data. 
     '''
-    def test_right_login(self):        
+    def test_correct_login(self):        
         details = {'username':'Dolly',  'password':'ncelekckln!mv'}
         req = requests.post('http://127.0.0.1:5000/login', data = details)
         self.assertEqual(req.url, 'http://127.0.0.1:5000/main')
