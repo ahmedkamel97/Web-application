@@ -1,0 +1,46 @@
+li {
+   width: 250px;
+  }
+
+body {
+    background-color: #E0E0E0;
+    padding: 10px;
+    text-align: center;
+    color: black;
+  }
+
+h1 {
+  margin-top: -.3em;
+  margin-bottom: 0em;
+    }
+h2 {margin:5px;}
+
+.container {width: 31.7%; float:left;clear: right;margin:10px; border-radius: 15px;}
+.container2 {align-content: center; padding-left: 550px; padding-top: 400px; padding-right: 550px;}
+
+
+.sortable { list-style-type: none; margin:0; padding:10px; min-height:30px; border-radius: 5px;}
+.sortable li span { position: absolute; margin-left: -1.3em; }
+
+.card {
+            display: inline-block;
+            vertical-align: top;
+            padding: 10px;
+            width: 300px;
+            height: 200px;
+            color: black;
+            background: #ff8;
+            text-align: center;
+            font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+            box-shadow: 3px 3px 3px lightgrey;
+        }
+
+/* The container must be positioned relative: */
+.custom-select {
+  position: relative;
+  font-family: Arial;
+}
+
+.custom-select select {
+  display: none; /*hide original SELECT element: */
+}

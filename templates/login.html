@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>login</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='fonts/ionicons.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/Login-Form-Clean.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/Registration-Form-with-Photo.css') }}">
+</head>
+
+<body><div class="login-clean">
+    <form method="POST" action="">
+        <h2 class="sr-only">Login Form</h2>
+        <div class="illustration"><i class="icon ion-ios-navigate"></i></div>
+        <div class="form-group"><input class="form-control" type="text" name="username" placeholder="Username" value="{{request.form.username}}" /></div>
+        <div class="form-group"><input class="form-control" type="password" name="password" placeholder="Password" value="{{request.form.password}}" /></div>
+        <div class="form-group"><button class="btn btn-primary btn-block" type="submit" value="Login">Log In</button></div><a class="forgot" href="http://127.0.0.1:5000/register">Don't have an account? Register Now </a></form>
+    {% if error %}
+        <p class="alert alert-danger" role="alert" align="center" ><strong>OOPS:</strong> {{ error }}
+    {% endif %}
+
+</div>
+    <script src=" {{ url_for('static', filename='js/jquery.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='bootstrap/js/bootstrap.min.js') }}"></script>
+</body>
+
+</html>
